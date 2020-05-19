@@ -1310,11 +1310,14 @@ input[type="text"] {
   color: rgba(82, 102, 160, 1);
 
 }
+
+@media screen and (min-width: 992px){
 .presentacion h2{
-  text-align: center;
-  margin-left: -50px;
-  color: white;
-  background-color: rgba(82, 102, 160, 1);
+    text-align: center;
+    margin-left: -50px;
+    color: white;
+    background-color: rgba(82, 102, 160, 1);
+}
 }
 label {
   font-weight: 700;
