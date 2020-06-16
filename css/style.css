@@ -1337,3 +1337,20 @@ input:not([type="submit"]), textarea{
   margin: 0 auto;
   margin-bottom: 2rem;
 }
+.barra{
+  background-color: #2F3C4F;
+  display: flex;
+  justify-content: space-around;
+}
+
+.barra a {
+  color:white;
+  padding: 10px 5px;
+  width: 25%;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+}
+.barra a:hover{
+  background-color: #999999;
+}
