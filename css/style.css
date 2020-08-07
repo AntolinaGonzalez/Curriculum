@@ -1328,6 +1328,8 @@ input:not([type="submit"]), textarea{
   background-color: #2F3C4F;
   display: flex;
   justify-content: space-around;
+  width: 100%;
+  color: white;
 }
 
 .barra a {
