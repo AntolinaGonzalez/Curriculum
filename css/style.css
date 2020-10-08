@@ -201,25 +201,21 @@ h3 span{
   background-size: cover !important;
   background-position: center center;
   background-repeat: no-repeat;
-  position: relative;
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
   margin: 0 auto;
   margin-bottom: 30px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+
 }
 .profile-thumb img{
-
   height: 250px;
   width: 180px;
-  margin-bottom: 30px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+  margin-left: -70%;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  border-radius: 20%;
+  
 }
 #fh5co-header .display-tc .fh5co-social-icons li a,
 .fh5co-cover .display-tc .fh5co-social-icons li a {
@@ -1342,4 +1338,43 @@ input:not([type="submit"]), textarea{
 }
 .barra a:hover{
   background-color: #999999;
+}
+
+.introduction{
+  margin-top: 10%;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 992px) {
+.intro-view{
+  display: flex; 
+  justify-content: end;
+}
+}
+@media screen and (max-width: 768px) {
+  #fh5co-header .display-tc .profile-thumb,
+.fh5co-cover .display-tc .profile-thumb {
+  background-size: cover !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+
+}
+.profile-thumb img{
+  height: 250px;
+  width: 180px;
+  margin: auto;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  border-radius: 20%;
+  
+}
+.introduction{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 }
