@@ -1341,8 +1341,7 @@ input:not([type="submit"]), textarea{
 }
 
 .introduction{
-  margin-top: 10%;
-  margin-bottom: 0;
+  margin: auto;
 }
 
 @media screen and (min-width: 992px) {
