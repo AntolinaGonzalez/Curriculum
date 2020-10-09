@@ -201,8 +201,8 @@ h3 span{
   background-size: cover !important;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   margin: 0 auto;
   margin-bottom: 30px;
 
@@ -211,10 +211,10 @@ h3 span{
   height: 250px;
   width: 180px;
   margin-left: -70%;
-  -webkit-border-radius: 20%;
-  -moz-border-radius: 20%;
-  -ms-border-radius: 20%;
-  border-radius: 20%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
   
 }
 #fh5co-header .display-tc .fh5co-social-icons li a,
@@ -1365,10 +1365,10 @@ input:not([type="submit"]), textarea{
   height: 250px;
   width: 180px;
   margin: auto;
-  -webkit-border-radius: 20%;
-  -moz-border-radius: 20%;
-  -ms-border-radius: 20%;
-  border-radius: 20%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
   
 }
 .introduction{
